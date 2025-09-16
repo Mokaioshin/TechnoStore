@@ -1,6 +1,6 @@
 /* Variables CSS pour faciliter les modifications */
 :root {
-    --primary-color: #007bff;
+    --primary-color: #2ddacf;
     --secondary-color: #6c757d;
     --background-color: #f8f9fa;
 }
@@ -24,6 +24,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }
+
+nav {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+        display: flex;
+    flex-direction: column;
+}
+
+main p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
 
 /* Styles à personnaliser par chaque étudiant */
